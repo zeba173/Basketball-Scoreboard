@@ -22,7 +22,10 @@
                     </div>
                 </div>
                 
-                <!-- <div class="timer" id="timer">12:00</div> -->
+                <div class="col-md-4">
+                    <h2 class="text-warning">Timer</h2>
+                    <h1 id="timer" class="display-3">12:00</h1>
+                  </div>
 
                 <div class="team-B col-md-4">
                     <h2 class="text-danger">Team-B</h2>
@@ -35,7 +38,10 @@
                 </div> 
                 </div>
 
-                <button onclick="resetGame()" class="btn btn-light">RESET</button> 
+                <button onclick="resetGame()" class="btn btn-light">RESTART</button>
+                <button onclick="startTimer()" class="btn btn-light">START</button>
+                <button onclick="stopTimer()" class="btn btn-light">STOP</button>
+                <button onclick="resetTimer()" class="btn btn-light">RESET</button>
             </div>
         </div>
 

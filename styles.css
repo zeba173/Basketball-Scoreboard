@@ -2,13 +2,13 @@ body {
     font-family: 'Orbitron', sans-serif;
   }
   
-  /* #timer {
+  #timer {
     background-color: #000;
     border: 3px solid #f5b50a;
     border-radius: 10px;
     padding: 10px 30px;
     display: inline-block;
-  } */
+  } 
   
   button {
     font-size: 1.2rem;
